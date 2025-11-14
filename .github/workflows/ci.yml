@@ -20,10 +20,7 @@ jobs:
         with:
           python-version: "3.9"
 
-      # Installer les requirements 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+
 
       # Vérifier la qualité du code mais ne pas échouer
       - name: Lint with Flake8 (ignore errors)
