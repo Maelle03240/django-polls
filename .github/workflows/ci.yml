@@ -32,4 +32,4 @@ jobs:
       - name: Run tests with nose
         run: |
           pip install nose
-          nosetests || true   # On ignore les erreurs si tu veux que ça passe
+          nosetests || true   # On ignore les erreurs 
