@@ -33,3 +33,7 @@ jobs:
         run: |
           pip install nose
           nosetests || true   # On ignore les erreurs 
+
+      - name: Build Docker image
+        run: |
+          docker build -t myapp:latest .
